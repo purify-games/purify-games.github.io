@@ -4,56 +4,105 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Purify Games</title>
-<meta name="description" content="Purify Games makes small pixel-art games you can play free in your browser. Our first: Deep Descent, a roguelite dungeon shooter.">
+<meta name="description" content="Purify Games is an independent game studio. Play Deep Descent free in your browser, and keep an eye on CitroGang.">
 <meta property="og:title" content="Purify Games">
-<meta property="og:description" content="Small pixel-art games, free in your browser. Play Deep Descent, a roguelite dungeon shooter.">
-<meta property="og:image" content="https://purify-games.github.io/assets/deep-descent-cover.png">
+<meta property="og:description" content="An independent game studio. Play Deep Descent free in your browser. Next up: CitroGang.">
+<meta property="og:image" content="https://purify-games.github.io/assets/logo.png">
 <meta property="og:type" content="website">
-<link rel="icon" href="assets/deep-descent-icon.png">
+<meta name="theme-color" content="#05070c">
+<link rel="icon" href="assets/icon-64.png">
+<link rel="apple-touch-icon" href="assets/icon-180.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header class="top">
-  <p class="wordmark">PURIFY<span>GAMES</span></p>
-  <p class="lede">Small pixel-art games. Free, and playable right in your browser.</p>
+<nav class="nav">
+  <a class="brand" href="#top"><img src="assets/icon-64.png" width="28" height="28" alt="">Purify Games</a>
+  <div class="nav-links">
+    <a href="#games">Games</a>
+    <a href="#studio">Studio</a>
+    <a href="#next">Next</a>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="flake-wrap" aria-hidden="true">
+    <img class="flake" src="assets/logo.png" width="640" height="640" alt="">
+  </div>
+  <h1>Purify <em>Games</em></h1>
+  <p class="lede">An independent studio making small, sharp games you can play free, right in your browser.</p>
+  <a class="cta" href="#games">See our games</a>
 </header>
 
-<div class="band" aria-hidden="true"></div>
-
 <main>
-  <h2 class="section-title">Our games</h2>
 
-  <article class="game">
-    <a class="cover" href="https://purify-games.github.io/deep-descent/">
-      <img src="assets/deep-descent-cover.png" width="630" height="500" alt="Deep Descent: a hero in a miner helmet facing a crowned purple eye boss across five dungeon chapters">
-    </a>
-    <div class="about">
-      <h3>Deep Descent</h3>
-      <p class="tag">Roguelite dungeon shooter</p>
-      <p>Fight down through the Crypt, Forest, Glacier, Forge and Void, room by room. Spend coins on upgrades, risk a curse or two, and beat a boss at the end of every chapter. Every run is a new dungeon; the coins you keep are your score.</p>
-      <ul class="facts">
-        <li>5 chapters, 5 bosses, endless Arcade</li>
-        <li>Daily Descent and Boss Rush</li>
-        <li>Keyboard, gamepad or touch</li>
-      </ul>
-      <div class="buttons">
-        <a class="button" href="https://purify-games.github.io/deep-descent/play/">Play now</a>
-        <a class="button secondary" href="https://purify-games.github.io/deep-descent/">About the game</a>
-        <a class="button secondary" href="https://purify-games.itch.io/deep-descent">On itch.io</a>
+  <section class="section" id="games">
+    <p class="eyebrow">01 · Games</p>
+    <h2>Out now</h2>
+
+    <article class="game">
+      <a class="cover" href="https://purify-games.github.io/deep-descent/">
+        <img src="assets/deep-descent-cover.png" width="630" height="500" alt="Deep Descent: a hero in a miner helmet facing a crowned purple eye boss across five dungeon chapters">
+      </a>
+      <div class="about">
+        <p class="tag">Roguelite dungeon shooter</p>
+        <h3>Deep Descent</h3>
+        <p>Fight down through the Crypt, Forest, Glacier, Forge and Void, room by room. Spend coins on upgrades, risk a curse or two, and beat a boss at the end of every chapter. Every run is a new dungeon; the coins you keep are your score.</p>
+        <ul class="facts">
+          <li>5 chapters, 5 bosses, endless Arcade</li>
+          <li>Daily Descent and Boss Rush</li>
+          <li>Keyboard, gamepad or touch</li>
+        </ul>
+        <div class="buttons">
+          <a class="button" href="https://purify-games.github.io/deep-descent/play/">Play now</a>
+          <a class="button ghost" href="https://purify-games.github.io/deep-descent/">About the game</a>
+          <a class="button ghost" href="https://purify-games.itch.io/deep-descent">itch.io</a>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <section class="section studio" id="studio">
+    <p class="eyebrow">02 · Studio</p>
+    <div class="studio-grid">
+      <h2>Clear ideas, <em>made to last.</em></h2>
+      <div class="studio-text">
+        <p>Purify Games is a small independent studio. We make games that are quick to pick up and hard to put down, and we release them free on the web, so anyone can play with one click.</p>
+        <p>We don't ship and forget. Deep Descent launched with a single chapter and has grown, update by update, into five chapters, three modes and a daily challenge, shaped by the people who play it.</p>
+        <dl class="values">
+          <div><dt>Free to play</dt><dd>In the browser, no install.</dd></div>
+          <div><dt>Made in Godot</dt><dd>Open-source engine, all the way down.</dd></div>
+          <div><dt>Always updating</dt><dd>Our games keep growing after launch.</dd></div>
+        </dl>
       </div>
     </div>
-  </article>
+  </section>
+
+  <section class="section" id="next">
+    <p class="eyebrow">03 · Next</p>
+    <article class="teaser">
+      <div class="citrus" aria-hidden="true">
+        <span class="slice s1"></span><span class="slice s2"></span><span class="slice s3"></span>
+      </div>
+      <div class="teaser-text">
+        <p class="tag">In the works</p>
+        <h3>CitroGang</h3>
+        <p class="tagline">Friendship politics and soft beverages.</p>
+        <p class="soon">More soon. Follow us on itch.io to hear first.</p>
+        <a class="button citro" href="https://purify-games.itch.io/">Follow on itch.io</a>
+      </div>
+    </article>
+  </section>
+
 </main>
 
-<div class="band" aria-hidden="true"></div>
-
 <footer>
+  <img src="assets/icon-64.png" width="40" height="40" alt="">
   <p><a href="https://purify-games.itch.io/">itch.io</a> · <a href="https://github.com/purify-games">GitHub</a></p>
-  <p class="small">© Purify Games. Pixel font: Jersey 10 (<a href="assets/fonts/Jersey10-OFL.txt">OFL</a>).</p>
+  <p class="small">© Purify Games</p>
 </footer>
 
 </body>
